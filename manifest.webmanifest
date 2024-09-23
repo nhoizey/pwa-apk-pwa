@@ -21,7 +21,7 @@
   "protocol_handlers": [
     {
       "protocol": "web+elisigeo",
-      "url": "/back.html?arg=%s"
+      "url": "https://pwa-apk-pwa.netlify.app/back.html?arg=%s"
     }
   ]
 }
