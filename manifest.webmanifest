@@ -9,12 +9,7 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/images/logo-192px.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/logo-512px.png",
+      "src": "/icone.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -25,7 +20,7 @@
   },
   "protocol_handlers": [
     {
-      "protocol": "elisigeo",
+      "protocol": "web+elisigeo",
       "url": "/back.html?arg=%s"
     }
   ]
