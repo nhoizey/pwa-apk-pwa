@@ -1,0 +1,32 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "PWA to APK and back",
+  "short_name": "PWA 2 APK",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/images/logo-192px.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo-512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "serviceworker": {
+    "src": "service-worker.js",
+    "scope": "/"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "elisigeo",
+      "url": "/back.html?arg=%s"
+    }
+  ]
+}
