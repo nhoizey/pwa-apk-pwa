@@ -2,14 +2,14 @@
   "dir": "ltr",
   "lang": "en",
   "name": "PWA to APK and back",
-  "short_name": "PWA 2 APK",
+  "short_name": "PWA➡️APK",
   "scope": "/",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
   "icons": [
     {
-      "src": "/icone.png",
+      "src": "/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -21,7 +21,7 @@
   "protocol_handlers": [
     {
       "protocol": "web+elisigeo",
-      "url": "https://pwa-apk-pwa.netlify.app/back.html?arg=%s"
+      "url": "https://pwa-apk-pwa.netlify.app/back/?arg=%s"
     }
   ]
 }
