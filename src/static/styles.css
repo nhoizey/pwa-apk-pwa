@@ -8,10 +8,10 @@ nav ul {
   padding-inline-start: 0;
 
   display: flex;
-  gap: 1rem;
+  gap: 1px;
 
   li {
-    background-color: #eee;
+    background-color: #ddd;
 
     a {
       display: inline-block;
